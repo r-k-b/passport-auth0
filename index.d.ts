@@ -38,9 +38,16 @@ export interface StrategyOptionWithRequest extends StrategyOption {
   passReqToCallback: true
 }
 
+export interface ExtraVerificationParams {
+  audience?: string
+  connection?: string
+  prompt?: string
+}
+
 export type VerifyFunction = (
   accessToken: string,
   refreshToken: string,
+  extraParams: ExtraVerificationParams,
   profile: Profile,
   done: (error: any, user?: any, info?: any) => void,
 ) => void
