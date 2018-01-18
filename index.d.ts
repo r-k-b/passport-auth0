@@ -20,7 +20,11 @@ export interface Profile extends passport.Profile {
 }
 
 export interface AuthenticateOptions extends passport.AuthenticateOptions {
-  authType?: string
+  clientID: string
+  domain: string
+  redirectUri: string
+  audience: string
+  responseType: string
 }
 
 export interface StrategyOption {
