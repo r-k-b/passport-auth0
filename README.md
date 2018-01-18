@@ -2,7 +2,9 @@
 
 [![Build Status](https://travis-ci.org/auth0/passport-auth0.svg?branch=master)](https://travis-ci.org/auth0/passport-auth0)
 
-This is the auth0 authentication strategy for Passport.js.
+This is the auth0 authentication strategy for Passport.js, forked to include TypeScript definitions.
+
+See the original at <https://github.com/auth0/passport-auth0>.
 
 ## Installation
 
