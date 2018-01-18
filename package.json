@@ -1,5 +1,5 @@
 {
-  "name": "@r-k-b/passport-auth0",
+  "name": "@rkb/passport-auth0",
   "version": "0.6.1",
   "description": "Auth0 platform authentication strategy for Passport.js",
   "main": "lib/index.js",
